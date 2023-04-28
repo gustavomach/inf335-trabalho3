@@ -44,7 +44,7 @@ public class Brecho {
 			media = media + produtos.get(i).getValor();
 			i++;
 		}
-		media = media / i;
+		media = media / produtos.size();
 		System.out.println("Media de Valores = " + media);
 	}
 
